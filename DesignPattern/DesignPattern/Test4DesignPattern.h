@@ -9,6 +9,15 @@
 
 @interface Test4DesignPattern : NSObject
 
+//单例模式调用案例
+- (void) test4SingletonDemo;
+
+//代理模式调用案例
+- (void) test4DelegateDemo;
+
+//KVC&KVO调用案例
+- (void) test4KVC_KVODemo;
+
 //策略模式调用案例
 - (void) test4StrategyDemo;
 

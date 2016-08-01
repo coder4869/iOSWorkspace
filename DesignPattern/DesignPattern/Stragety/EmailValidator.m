@@ -11,7 +11,7 @@
 
 -(BOOL) validateInput:(id)input error:(NSError**)error
 {
-    NSLog(@"Email Validator Action!");
+    NSLog(@"[Stragety] Email check Action!");
     return true;
 }
 

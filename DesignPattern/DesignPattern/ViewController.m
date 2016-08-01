@@ -18,7 +18,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    //策略模式运行
+    //singleton
+    [self.testInstance test4SingletonDemo];
+    
+    //delegate
+    [self.testInstance test4DelegateDemo];
+    
+    //KVC_KVO
+    [self.testInstance test4KVC_KVODemo];
+
+    //Strategy
     [self.testInstance test4StrategyDemo];
 }
 

@@ -12,7 +12,7 @@
 
 -(BOOL) validateInput:(id)input error:(NSError**)error
 {
-    NSLog(@"Phone Validator Action!");
+    NSLog(@"[Stragety] Phone check Action!");
     return true;
 }
 

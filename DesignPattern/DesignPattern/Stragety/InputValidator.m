@@ -13,7 +13,7 @@
     validator = myValidator;
 }
 -(BOOL) validateInput:(id)input error:(NSError**)error {
-    NSLog(@"Input Validator callled");
+    NSLog(@"[Stragety] Input Validator callled!");
     [validator validateInput:input error:nil];
     return true;
 }

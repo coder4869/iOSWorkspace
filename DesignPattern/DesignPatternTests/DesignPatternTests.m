@@ -29,7 +29,11 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     
     Test4DesignPattern * testInstance = [[Test4DesignPattern alloc] init];
-    [testInstance test4StrategyDemo]; //策略模式测试
+    
+    [testInstance test4SingletonDemo];
+    [testInstance test4DelegateDemo];
+    [testInstance test4KVC_KVODemo];
+    [testInstance test4StrategyDemo]; 
 }
 
 - (void)testPerformanceExample {
