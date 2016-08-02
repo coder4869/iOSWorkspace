@@ -30,7 +30,9 @@
 
 //代理模式调用案例
 - (void) test4DelegateDemo {
-    [[ProxyObject alloc] callProxy];
+//    [[ProxyObject alloc] callProxy]; //继承模式
+    
+    [[NSObject alloc] callProxy];   //Category分类模式
 }
 
 //KVC&KVO调用案例

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:UITheory/UITheory.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DesignPattern/DesignPattern.xcodeproj">
    </FileRef>
    <FileRef
