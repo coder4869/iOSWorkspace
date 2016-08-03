@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 
+#import "Test4UI.h"
 #import "ViewProperty.h"
 
 @interface ViewController ()
@@ -19,9 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    ViewProperty *vp = [[ViewProperty alloc] initWithFrame:CGRectMake(100, 70, 200, 200)];
-    [vp demo4FrameBoundsCenter:NO]; //参数为是否隐藏超出边界的子视图
-    [self.view addSubview:vp];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    Test4UI *testUI = [[Test4UI alloc] init];
+    [testUI test4CGViewDIY:self.view];
+    [testUI test4ViewProperty:self.view];
 }
 
 

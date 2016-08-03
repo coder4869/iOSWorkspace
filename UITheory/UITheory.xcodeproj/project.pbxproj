@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		17438E121D50294500550770 /* ViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17438E111D50294500550770 /* ViewLayer.m */; };
+		1754FE191D51D10700C8CA2B /* CGViewDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE181D51D10700C8CA2B /* CGViewDIY.m */; };
+		1754FE1C1D51D39100C8CA2B /* Test4UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE1B1D51D39100C8CA2B /* Test4UI.m */; };
+		1754FE1D1D51D63100C8CA2B /* Test4UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE1B1D51D39100C8CA2B /* Test4UI.m */; };
+		1754FE1E1D51D63200C8CA2B /* Test4UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE1B1D51D39100C8CA2B /* Test4UI.m */; };
+		1754FE201D51E05100C8CA2B /* CGViewREADME.md in Sources */ = {isa = PBXBuildFile; fileRef = 1754FE1F1D51E05100C8CA2B /* CGViewREADME.md */; };
 		17E34A211D4F1BCB00489103 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E34A201D4F1BCB00489103 /* main.m */; };
 		17E34A241D4F1BCB00489103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E34A231D4F1BCB00489103 /* AppDelegate.m */; };
 		17E34A271D4F1BCB00489103 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E34A261D4F1BCB00489103 /* ViewController.m */; };
@@ -39,6 +44,11 @@
 /* Begin PBXFileReference section */
 		17438E101D50294500550770 /* ViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLayer.h; sourceTree = "<group>"; };
 		17438E111D50294500550770 /* ViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLayer.m; sourceTree = "<group>"; };
+		1754FE171D51D10700C8CA2B /* CGViewDIY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGViewDIY.h; sourceTree = "<group>"; };
+		1754FE181D51D10700C8CA2B /* CGViewDIY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGViewDIY.m; sourceTree = "<group>"; };
+		1754FE1A1D51D39100C8CA2B /* Test4UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test4UI.h; sourceTree = "<group>"; };
+		1754FE1B1D51D39100C8CA2B /* Test4UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test4UI.m; sourceTree = "<group>"; };
+		1754FE1F1D51E05100C8CA2B /* CGViewREADME.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CGViewREADME.md; sourceTree = "<group>"; };
 		17E34A1C1D4F1BCB00489103 /* UITheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E34A201D4F1BCB00489103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17E34A221D4F1BCB00489103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +101,16 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		1754FE161D51D0EA00C8CA2B /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+				1754FE171D51D10700C8CA2B /* CGViewDIY.h */,
+				1754FE181D51D10700C8CA2B /* CGViewDIY.m */,
+				1754FE1F1D51E05100C8CA2B /* CGViewREADME.md */,
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
 		17E34A131D4F1BCB00489103 = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +134,19 @@
 		17E34A1E1D4F1BCB00489103 /* UITheory */ = {
 			isa = PBXGroup;
 			children = (
-				173E93DD1D508F1A00F5762F /* TableView */,
-				17E34A521D4F227F00489103 /* View */,
 				17E34A221D4F1BCB00489103 /* AppDelegate.h */,
 				17E34A231D4F1BCB00489103 /* AppDelegate.m */,
 				17E34A251D4F1BCB00489103 /* ViewController.h */,
 				17E34A261D4F1BCB00489103 /* ViewController.m */,
-				17E34A2B1D4F1BCB00489103 /* Assets.xcassets */,
-				17E34A2D1D4F1BCB00489103 /* LaunchScreen.storyboard */,
+				1754FE1A1D51D39100C8CA2B /* Test4UI.h */,
+				1754FE1B1D51D39100C8CA2B /* Test4UI.m */,
 				17E34A301D4F1BCB00489103 /* Info.plist */,
+				17E34A2B1D4F1BCB00489103 /* Assets.xcassets */,
+				1754FE161D51D0EA00C8CA2B /* DIY */,
+				17E34A2D1D4F1BCB00489103 /* LaunchScreen.storyboard */,
 				17E34A1F1D4F1BCB00489103 /* Supporting Files */,
+				173E93DD1D508F1A00F5762F /* TableView */,
+				17E34A521D4F227F00489103 /* View */,
 			);
 			path = UITheory;
 			sourceTree = "<group>";
@@ -299,7 +322,10 @@
 				17E34A5D1D4F364600489103 /* ViewREADME.md in Sources */,
 				17438E121D50294500550770 /* ViewLayer.m in Sources */,
 				17E34A271D4F1BCB00489103 /* ViewController.m in Sources */,
+				1754FE191D51D10700C8CA2B /* CGViewDIY.m in Sources */,
 				17E34A241D4F1BCB00489103 /* AppDelegate.m in Sources */,
+				1754FE1C1D51D39100C8CA2B /* Test4UI.m in Sources */,
+				1754FE201D51E05100C8CA2B /* CGViewREADME.md in Sources */,
 				17E34A211D4F1BCB00489103 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1754FE1D1D51D63100C8CA2B /* Test4UI.m in Sources */,
 				17E34A3A1D4F1BCB00489103 /* UITheoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1754FE1E1D51D63200C8CA2B /* Test4UI.m in Sources */,
 				17E34A451D4F1BCC00489103 /* UITheoryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
